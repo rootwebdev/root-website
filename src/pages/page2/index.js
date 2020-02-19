@@ -15,6 +15,14 @@ const ExampleStyledDiv = styled.div`
   font-size: ${props => props.fontSize};
 `;
 
+// This is also important
+// For cases where you want to change some properties or add new ones
+// to an already existent styled-component
+const ExtendedStyledDiv = styled(ExampleStyledDiv)`
+  background-color: lightcoral;
+  float: right;
+`;
+
 export default () =>
     <div>
         <Navbar/>
@@ -26,4 +34,5 @@ export default () =>
             fontSize='30px'>
             I'm a styled-div
         </ExampleStyledDiv>
+        <ExtendedStyledDiv/>
     </div>
