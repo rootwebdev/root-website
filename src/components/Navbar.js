@@ -9,23 +9,25 @@ const activeStyle = {
 export default () =>
     <nav>
         <ul>
-            <li>
-                <Link to='/'
+            <li><Link to='/'
                       activeStyle={activeStyle}>
-                    Link to Home
-                </Link>
-            </li>
-            <li>
-                <Link to='/page1'
+                Link to Home
+            </Link></li>
+            <li><Link to='/page1'
                       activeStyle={activeStyle}>
-                    Link to Page 1
-                </Link>
-            </li>
-            <li>
-                <Link to='/page2'
+                Link to Page 1
+            </Link></li>
+            <li><Link to='/page2'
                       activeStyle={activeStyle}>
-                    Link to Page 2
-                </Link>
-            </li>
+                Link to Page 2
+            </Link></li>
+            <li><Link to='/page3'
+                      activeStyle={activeStyle}>
+                Link to Page 3, with "posts"
+            </Link></li>
+            <li><Link to='/blog/test'
+                      activeStyle={activeStyle}>
+                Link to the Blog
+            </Link></li>
         </ul>
     </nav>

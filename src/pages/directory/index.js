@@ -26,4 +26,4 @@ export default () =>
         I'm a page inside directory.
         <br/>
         <SlidingDiv yTranslate={200}>And I'm a custom div with styled-keyframes.</SlidingDiv>
-    </AutoWidthDiv>;
+    </AutoWidthDiv>
