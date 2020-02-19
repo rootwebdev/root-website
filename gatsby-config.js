@@ -4,6 +4,11 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
+// We can check this config later
+// Here is where you can store static info about the website
 module.exports = {
-  /* Your site config here */
-}
+  siteMetadata: {
+    title: `Root Webdev`,
+  },
+  plugins: [`gatsby-plugin-styled-components`]
+};
