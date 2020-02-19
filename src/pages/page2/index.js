@@ -32,7 +32,15 @@ export default () =>
             color='darkblue'
             bold
             fontSize='30px'>
-            I'm a styled-div
+            I'm a styled div
         </ExampleStyledDiv>
-        <ExtendedStyledDiv/>
+        <ExtendedStyledDiv
+            color='deepskyblue'
+            bold
+            fontSize='40px'>
+            I'm an extended styled div, but you can pass different props to me,
+            I'm not limited by my parents props.
+            <br/>
+            Also, ignore my colors, I know
+        </ExtendedStyledDiv>
     </div>
